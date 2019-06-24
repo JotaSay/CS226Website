@@ -1,0 +1,57 @@
+<!-- Alexander Rozenblit amr468 -->
+
+<!DOCTYPE html>
+<html lang = "en-US">
+    <title>Search Bar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <body>
+        <header>RUBuying</header>
+        <center>
+        <a type="Button" href="browseAll.jsp" style="color: #FFFFFF"> Browse All Items </a>
+        <br> </br>
+        <h2>Search for Items</h2>
+        <br> </br>
+        <form method ="POST" action="search.jsp">
+                <label>Search By:</label>
+              <select type = "text" name= "searchBy" >
+                <option value="i.itemName">Name</option>
+                <option value="idItem">Item ID</option>
+                <option value="Brand">Brand</option>
+                <option value="i.itemCondition">Condition</option>
+                <option value="i.itemType">Type</option>
+              <option value="m.currentPrice">Current price</option>
+              </select>
+              <br> </br>
+              <label>Sort By:</label>
+              <select type = "text" name= "searchOrder" >
+              <option value="i.itemName">Name</option>
+              <option value="idItem">Item ID</option>
+              <option value="Brand">Brand</option>
+              <option value="i.itemCondition">Condition</option>
+              <option value="i.itemType">Type</option>
+            <option value="m.currentPrice">Current price</option>
+            </select>
+            <br> </br>
+                <label>Search</label>
+                <input type="text" name = "searchFor" required="required">
+                <input type = "submit" value = "Search"/>
+        </form>
+
+
+        <br> </br>
+        <h2>Search for Auctions</h2>
+        <br> </br>
+        <a type="Button" href="searchAuctions.jsp" style="color: #FFFFFF"> Explore Auctions </a>
+        <br> </br>
+        <h2>Search for Users (username) to see their Auctions</h2>
+        <br> </br>
+        <form method ="POST" action="searchUsers.jsp">
+                <label>Search User Name:</label>
+                <input type="text" name = "searchUserName" required="required">
+                <input type = "submit" value = "Search"/>
+        </form>
+
+
+      </center>
+        </body>
+</html>

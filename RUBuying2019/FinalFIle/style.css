@@ -1,0 +1,104 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background: url(img.jpg);
+    background-size:cover;
+    background-blend-mode: soft-light;
+
+}
+h2{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 200px;
+    margin: auto;
+    margin-top: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+p >a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-align:center;
+    background: whitesmoke;
+    color:#000;
+    font-size:16px;
+    line-height:20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width:200px;
+}
+.sign_in{
+    background: rbga(44,62,80,0.7);
+    padding:100px;
+    width: 250px;
+    margin: auto;
+    margin-top: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+form{
+    width: 240px;
+    text-align: center;
+}
+
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 20px 0;
+    transition: border 0.5s;
+    outline:none;
+    color: white;
+}
+
+input[type=submit]
+{
+    border: none;
+    width: 190px;
+    background:white;
+    color:#000;
+    font-size:16px;
+    line-height:20px;
+    padding: 2px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin:10px;
+}
+
+input[type=submit]:hover{
+    color: #fff;
+    background-color: #000;
+}
+h2{
+    color:white;
+}
+a[class="meep"]{
+    color:yellow;
+    padding: 10px;
+    text-decoration: blink;
+}
+a:hover{
+    color: skyblue;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+p{
+    text-align: center;
+}
