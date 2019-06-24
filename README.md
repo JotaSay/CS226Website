@@ -2,7 +2,5 @@
 A buying and selling website 
 What I learned:
   Creating the front end of a website by incoporating html css & javascript
-  Communicating with the backend rds hosted by aws using JDBC 
-  Protecting against sql injections
-Things to be further applied
-  Incorporating more security with passwords and storage
+  How to establish communication with the rds using jdbc
+  Writing sql queries that bring important data for analytics
