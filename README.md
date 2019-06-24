@@ -1,4 +1,4 @@
-# CS226Website
+# CS336Website
 A buying and selling website 
 What I learned:
   Creating the front end of a website by incoporating html css & javascript
